@@ -12,3 +12,4 @@ addons:
 script:
   - CXX=/usr/bin/g++-5 CC=/usr/bin/gcc-5 cmake .
   - cmake --build . -- -j2 #call the build system in that folder and pass it the param -j2
+  - ctest
