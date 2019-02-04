@@ -8,3 +8,7 @@ endif()
 
 add_executable(intro.exe main.cpp)
 target_compile_features(intro.exe PRIVATE cxx_lambda_init_captures)
+
+
+add_executable(tester.exe tester.cpp)
+add_test(Test tester.exe)
