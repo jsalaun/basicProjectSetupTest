@@ -1,0 +1,7 @@
+dist: trusty
+sudo: false
+language: cpp
+
+script:
+  - cmmake .
+  - cmake --build . -- -j2 #call the build system in that folder and pass it the param -j2
