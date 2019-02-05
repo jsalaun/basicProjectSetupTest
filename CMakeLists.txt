@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.0)
+#set(CMAKE_CXX_STANDARD 14)
+#set(CC clang-cl)
 
 if (MSVC)
     add_compile_options(/W4)
